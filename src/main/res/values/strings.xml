@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="bt_show_location_popup_window">Show Location PopupWindow</string>
+    <string name="bt_show_dropdown_popup_window">Show Dropdown PopupWindow</string>
+    
+    <string name="confCall">confCall</string>
+    <string name="call_ip_dial">Ip dial</string>
+    <string name="add_2sec_pause">Add 2-sec pause</string>
+    <string name="add_wait">Add wait</string>
+    <string name="tab_popup_window">Popup window</string>
+    <string name="tab_view_animation">View Animation</string>
+    <string name="tab_property_animation">Property Animation</string>
+    <string name="scale_animation">ScaleAnimation(缩放动画)</string>
+    <string name="alpha_animation">AlphaAnimation（透明度动画）</string>
+    <string name="rotate_animation">RotateAnimation（旋转动画）</string>
+    <string name="translate_animation">TranslateAnimation（位移动画）</string>
+    <string name="combination_animation1">组合1</string>
+    <string name="combination_animation2">组合2</string>
+    <string name="combination_animation3">闪烁</string>
+    <string name="combination_animation4">抖动</string>
+    <string name="combination_animation5">切换动画</string>
+    <string name="layout_animation">布局动画</string>
+    <string name="frame_animation">逐帧动画</string>
+    
+    <string name="change_property_alpha">Change Alpha</string>
+    <string name="change_property_rotationX">Change RotationX</string>
+    <string name="change_property_scaleX">Change ScaleX</string>
+    <string name="change_property_tranlationY">Change TranslationY</string>
+    <string name="change_property_background_color">Change Background Color</string>
+    <string name="change_combination_property">Change Combination Property</string>
+    <string name="value_animator">Change visible</string>
+    <string name="click_image_view">点击视图</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mainThreadActivity_lable">MainThreadActivity</string>
+    <string name="subThread1Activity_lable">SubThread1Activity</string>
+    <string name="threeActivity_lable">threeActivity</string>
+    <string name="fourActivity_lable">fourActivity</string>
+    <string name="ThreadLocalActivity_lable">ThreadLocalActivity</string>
+    <string name="first_Beauty">第一个美女</string>
+    <string name="second_Beauty">第二个美女</string>
+    <string name="three_Beauty">第三个美女</string>
+    <string name="four_Beauty">第四个美女</string>
+    <string name="five_Beauty">第五个美女</string>
+    <string name="select_Beauty">选择美女</string>
+    <string name="beauty_image_view">美女视图</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_render_script_blur">RSBlur</string>
+    <string name="sagereal_tab_ltr_merge">LtrMerge</string>
+    <string name="sagereal_tab_rouned_corner">RounedCorner</string>
+    <string name="bt_stop_show">Stop</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytmxk.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".scroll.ScrollActivity"></activity>
+
+        <activity android:name="com.cytmxk.test.animation.TestAnimationActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.test.animation.view.ChangedActivity"></activity>
+        <activity android:name="com.cytmxk.test.animation.view.LayoutActivity"></activity>
+        <activity android:name=".png9.Png9Activity" />
+
+        <!--<activity android:name="com.cytmxk.test.interpolator.InterpolatorActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.animation.property.LayoutChangeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.testmaterialdesign.DependencyBehaviorActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.testmaterialdesign.behavior.ScrollBehaviorActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.testmaterialdesign.appbarlayout.FirstBehaviorActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.testmaterialdesign.appbarlayout.SecondBehaviorActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.testmaterialdesign.appbarlayout.ThreeBehaviorActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.systemwindows.FlowLayoutActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.systemwindows.dimming.DimmingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.systemwindows.hide.HideActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.systemwindows.immersive.ImmersiveActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.systemwindows.translucent.TranslucentActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.systemwindows.custom.fitssystemwindows.FitsSystemWindowsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.fragment.staticuse.StaticUseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+        <!--<activity android:name=".fragment.multi.MultiFragmentActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+        <!--<activity android:name=".fragment.single.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.sdcard.CopyActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+    </application>
+
+</manifest>

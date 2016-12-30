@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_call"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="打电话" />
+    　　
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="照相" />
+    　　
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="添加" />
+    　　
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="删除" />
+</menu>

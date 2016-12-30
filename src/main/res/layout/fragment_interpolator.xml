@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp" >
+
+    <com.cytmxk.test.interpolator.CurveView
+        android:id="@+id/curve"
+        android:layout_width="wrap_content"
+        android:layout_height="200dip" />
+
+    <RadioGroup
+        android:id="@+id/interpolatorGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <RadioButton
+            android:id="@+id/AccelerateDecelerateInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="AccelerateDecelerate" />
+
+        <RadioButton
+            android:id="@+id/AccelerateInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AccelerateInterpolator" />
+
+        <RadioButton
+            android:id="@+id/AnticipateInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AnticipateInterpolator" />
+
+        <RadioButton
+            android:id="@+id/AnticipateOvershootInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AnticipateOvershoot" />
+
+        <RadioButton
+            android:id="@+id/BounceInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BounceInterpolator" />
+
+        <RadioButton
+            android:id="@+id/CycleInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CycleInterpolator" />
+
+        <RadioButton
+            android:id="@+id/DecelerateInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DecelerateInterpolator" />
+
+        <RadioButton
+            android:id="@+id/LinearInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LinearInterpolator" />
+
+        <RadioButton
+            android:id="@+id/OvershootInterpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OvershootInterpolator" />
+    </RadioGroup>
+
+</RelativeLayout>
