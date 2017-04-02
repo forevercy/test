@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".scroll.ScrollActivity"></activity>
+        <!--<activity android:name=".scroll.ScrollActivity"></activity>
 
         <activity android:name="com.cytmxk.test.animation.TestAnimationActivity"
             android:label="@string/app_name">
@@ -19,7 +19,7 @@
         </activity>
         <activity android:name="com.cytmxk.test.animation.view.ChangedActivity"></activity>
         <activity android:name="com.cytmxk.test.animation.view.LayoutActivity"></activity>
-        <activity android:name=".png9.Png9Activity" />
+        <activity android:name=".png9.Png9Activity" />-->
 
         <!--<activity android:name="com.cytmxk.test.interpolator.InterpolatorActivity"
             android:label="@string/app_name">
@@ -146,6 +146,22 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>-->
+
+        <!--<activity android:name="com.cytmxk.test.picture.blurpicture.BlurPicActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>-->
+
+        <activity android:name="com.cytmxk.test.storage.StorageActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
     </application>
 

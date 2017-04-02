@@ -10,6 +10,7 @@
     <string name="tab_popup_window">Popup window</string>
     <string name="tab_view_animation">View Animation</string>
     <string name="tab_property_animation">Property Animation</string>
+    <string name="tab_vector_animation">Vector Animation</string>
     <string name="scale_animation">ScaleAnimation(缩放动画)</string>
     <string name="alpha_animation">AlphaAnimation（透明度动画）</string>
     <string name="rotate_animation">RotateAnimation（旋转动画）</string>
@@ -45,8 +46,11 @@
     <string name="select_Beauty">选择美女</string>
     <string name="beauty_image_view">美女视图</string>
     <string name="hello_world">Hello world!</string>
-    <string name="tab_render_script_blur">RSBlur</string>
     <string name="sagereal_tab_ltr_merge">LtrMerge</string>
     <string name="sagereal_tab_rouned_corner">RounedCorner</string>
     <string name="bt_stop_show">Stop</string>
+    <string name="tab_render_script_blur">Render Script Blur</string>
+    <string name="sagereal_tab_fast_blur">Fast Blur</string>
+    <string name="sagereal_tab_alpha_blur">Alpha Blur</string>
+    <string name="sagereal_tab_circle">Circle</string>
 </resources>

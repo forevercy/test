@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cytmxk.test.animation;
+package com.cytmxk.test.picture.blurpicture;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
+import android.graphics.Outline;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
-import android.widget.FrameLayout;
+import android.view.ViewOutlineProvider;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.cytmxk.test.R;
 
 /**
@@ -55,6 +55,14 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
     int mSidePadding;
 
     private int[] mTabIcons;
+
+    private static final ViewOutlineProvider VIEW_BOUNDS_OUTLINE_PROVIDER =
+            new ViewOutlineProvider() {
+        @Override
+        public void getOutline(View view, Outline outline) {
+            outline.setRect(0, 0, view.getWidth(), view.getHeight());
+        }
+    };
 
     private static final int TAB_SIDE_PADDING_IN_DPS = 10;
 
@@ -120,8 +128,11 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
 
         mTabStrip = new ViewPagerTabStrip(context);
         addView(mTabStrip,
-                new FrameLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT));
+                new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT));
         a.recycle();
+
+        // enable shadow casting from view bounds
+        setOutlineProvider(VIEW_BOUNDS_OUTLINE_PROVIDER);
     }
 
     public void setViewPager(ViewPager viewPager) {
@@ -227,6 +238,9 @@ public class ViewPagerTabs extends HorizontalScrollView implements ViewPager.OnP
     }
 
     private int getRtlPosition(int position) {
+        if (getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            return mTabStrip.getChildCount() - 1 - position;
+        }
         return position;
     }
 }

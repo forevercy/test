@@ -60,6 +60,9 @@ public class LayoutChangeFragment extends Fragment implements View.OnClickListen
         transition.setStartDelay(LayoutTransition.CHANGE_DISAPPEARING, transition.getDuration(LayoutTransition.DISAPPEARING));
 
         llImageView.setLayoutTransition(transition);
+        for (int i = 0; i < 5; i++) {
+            addChild();
+        }
 
         return root;
     }
@@ -68,11 +71,7 @@ public class LayoutChangeFragment extends Fragment implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_add_image:{
-                ImageView imageView = new ImageView(getContext());
-                imageView.setImageResource(R.drawable.second_pic);
-                imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-                LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(200,200);
-                llImageView.addView(imageView, 0, layoutParams);
+                addChild();
             }
                 break;
             case R.id.btn_remove_image:{
@@ -83,5 +82,13 @@ public class LayoutChangeFragment extends Fragment implements View.OnClickListen
             }
                 break;
         }
+    }
+
+    private void addChild() {
+        ImageView imageView = new ImageView(getContext());
+        imageView.setImageResource(R.drawable.second_pic);
+        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(200,200);
+        llImageView.addView(imageView, 0, layoutParams);
     }
 }

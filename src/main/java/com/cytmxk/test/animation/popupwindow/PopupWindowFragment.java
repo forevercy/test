@@ -6,14 +6,14 @@ import android.annotation.TargetApi;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class PopupWindowFragment extends Fragment{
+public class PopupWindowFragment extends Fragment {
 
 	private Button mBtShowLocationPopupWindow = null;
 	private Button mBtShowDropdownPopupWindow = null;
